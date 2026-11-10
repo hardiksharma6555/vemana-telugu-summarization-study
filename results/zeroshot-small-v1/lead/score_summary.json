@@ -1,0 +1,21 @@
+{
+ "results": "results/zeroshot-small-v1/lead/results.jsonl",
+ "notes": 100,
+ "basic_checks_passed": 100,
+ "mean_chrf_main_fact": 100.0,
+ "mean_chrf_subject": 39.208,
+ "mean_novel_word_rate": 0.0,
+ "mean_output_words": 10.35,
+ "mean_source_copy_rate": 1.0,
+ "prompt_leaks": 0,
+ "distinct_outputs": 10,
+ "urgent_hazard_mentioned": [
+  true
+ ],
+ "urgent_output": [
+  "పాఠశాల గేటు దగ్గర విద్యుత్ తీగలు తెగిపడ్డాయి. పిల్లలకు ప్రమాదం ఉంది. వెంటనే మరమ్మతులు చేయండి."
+ ],
+ "error_counts": {},
+ "factual_accuracy": null,
+ "caveat": "Mechanical diagnostics on synthetic templated notes; not factual accuracy."
+}

@@ -1,0 +1,21 @@
+{
+ "results": "results/zeroshot-small-v1/indicbart-xlsum/results.jsonl",
+ "notes": 100,
+ "basic_checks_passed": 100,
+ "mean_chrf_main_fact": 22.216,
+ "mean_chrf_subject": 46.401,
+ "mean_novel_word_rate": 0.307,
+ "mean_output_words": 7.6,
+ "mean_source_copy_rate": 0.08,
+ "prompt_leaks": 0,
+ "distinct_outputs": 46,
+ "urgent_hazard_mentioned": [
+  true
+ ],
+ "urgent_output": [
+  "పాఠశాల గేటు దగ్గర విద్యుత్ తీగలు తెగిపడ్డాయా?"
+ ],
+ "error_counts": {},
+ "factual_accuracy": null,
+ "caveat": "Mechanical diagnostics on synthetic templated notes; not factual accuracy."
+}

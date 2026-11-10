@@ -1,0 +1,17 @@
+{
+ "model": "lead",
+ "device": "cpu",
+ "num_beams": 4,
+ "max_length": 128,
+ "no_repeat_ngram_size": 3,
+ "batch_size": 16,
+ "dtype": "float32",
+ "torch": "2.10.0+cu128",
+ "transformers": "5.22.2",
+ "factual_accuracy": null,
+ "started": "2026-11-10T21:47:54+0530",
+ "load_seconds": 0.0,
+ "status": "completed",
+ "finished": "2026-11-10T21:47:54+0530",
+ "generation_seconds_total": 0.0
+}

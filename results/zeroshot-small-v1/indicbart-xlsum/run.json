@@ -1,0 +1,26 @@
+{
+ "model": "indicbart-xlsum",
+ "device": "cuda",
+ "num_beams": 4,
+ "max_length": 128,
+ "no_repeat_ngram_size": 3,
+ "batch_size": 16,
+ "dtype": "float32",
+ "torch": "2.10.0+cu128",
+ "transformers": "5.22.2",
+ "factual_accuracy": null,
+ "started": "2026-11-10T21:47:59+0530",
+ "repo": "ai4bharat/IndicBART-XLSum",
+ "parameters": 244018176,
+ "special_ids": {
+  "<s>": 64000,
+  "</s>": 64001,
+  "<pad>": 0,
+  "<2te>": 64014
+ },
+ "load_seconds": 7.4,
+ "peak_cuda_allocated_gib": 2.997,
+ "status": "completed",
+ "finished": "2026-11-10T21:48:13+0530",
+ "generation_seconds_total": 7.03
+}

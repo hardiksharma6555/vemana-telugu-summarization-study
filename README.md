@@ -9,6 +9,18 @@ Telugu source notes, raw generations, checks, timings, memory measurements, and 
 Telugu-to-English summarizer out of the box. This is a starting point for research,
 not a production summarization service or a claim that adaptation cannot work.
 
+## Latest: zero-shot Telugu summaries with small Indian models (< 1B)
+
+On 10 November 2026 we ran AI4Bharat's IndicBART-XLSum and MultiIndicSentenceSummarizationSS (244M each) on all
+100 notes, Telugu in and Telugu out, on one H100.
+**No model is usable as-is.** IndicBART-XLSum is the best starting point: fluent Telugu on the right topic, no prompt
+copying, about 0.07 s per note. But it writes headline-style one-liners and invents or changes details in about 4 of
+10 categories. The benchmark itself has only 10 distinct key facts, pasted verbatim, so a copy baseline scores
+perfectly; varied or real complaints are needed next.
+
+See [the results, limits and review checklist](results/zeroshot-small-v1/README.md) and the
+[priority review worksheet](results/zeroshot-small-v1/review/review_priority.csv).
+
 ## New experiments and supervised training
 
 The `vemana_study` package adds a reusable `Summarizer`, English/Telugu output,
